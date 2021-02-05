@@ -1,0 +1,33 @@
+{
+  "name": "jsonwebtoken_authentification",
+  "version": "1.0.0",
+  "description": "How to sign in and sign up using json web token",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/STAM0283/Jsonwebtoken_authentification.git"
+  },
+  "author": "STAMBOULI AMINE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/STAM0283/Jsonwebtoken_authentification/issues"
+  },
+  "homepage": "https://github.com/STAM0283/Jsonwebtoken_authentification#readme",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.2.5"
+  }
+}
